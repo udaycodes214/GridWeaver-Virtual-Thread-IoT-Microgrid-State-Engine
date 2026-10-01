@@ -1,0 +1,12 @@
+GRIDWEAVER REFERENCE DEMO OUTPUT
+
+=== GridWeaver: Virtual Thread IoT Microgrid State Engine ===
+GridWeaver | status=SURPLUS | generation=30.50kW | load=31.00kW | battery=5.00kW | gridImport=0.00kW | devices=5
+After asynchronous IoT updates:
+GridWeaver | status=SURPLUS | generation=32.50kW | load=28.00kW | battery=5.00kW | gridImport=0.00kW | devices=5
+Snapshot -> generation 32.50kW | load 28.00kW | balance 9.50kW | grid import 0.00kW | status SURPLUS
+
+Benchmark: 1000 I/O-like tasks x 20ms
+Platform-thread pool: 224 ms
+Virtual threads:      28 ms
+Lower wall-clock time is better for this concurrency-oriented workload.
