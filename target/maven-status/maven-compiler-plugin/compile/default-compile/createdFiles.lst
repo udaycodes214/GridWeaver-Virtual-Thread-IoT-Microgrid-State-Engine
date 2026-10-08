@@ -1,9 +1,0 @@
-com\gridweaver\engine\MicrogridStateEngine.class
-com\gridweaver\model\DeviceType.class
-com\gridweaver\GridWeaverSelfTest.class
-com\gridweaver\WebServer.class
-com\gridweaver\model\Device.class
-com\gridweaver\Main.class
-com\gridweaver\engine\MicrogridSnapshot.class
-com\gridweaver\engine\MicrogridStateEngine$1.class
-com\gridweaver\engine\VirtualThreadBenchmark.class
