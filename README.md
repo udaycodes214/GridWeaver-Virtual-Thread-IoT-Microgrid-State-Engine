@@ -4,14 +4,15 @@ GridWeaver is a full-stack educational microgrid simulation platform that combin
 
 ## Architecture
 
-```mermaid
-flowchart LR
-  Simulator --> Service --> StateMachine
-  Service --> Kafka
-  Kafka --> Consumer
-  Consumer --> WebSocket --> React
-  React --> REST API --> Service
-```
+ flowchart LR
+    Simulator --> Service
+    Service --> StateMachine
+    Service --> Kafka
+    Kafka --> Consumer
+    Consumer --> WebSocket
+    WebSocket --> React
+    React --> REST_API
+    REST_API --> Service
 
 ## Features
 
