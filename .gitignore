@@ -1,0 +1,25 @@
+# Java / Maven
+target/
+**/target/
+*.class
+
+# Node / Vite
+node_modules/
+**/node_modules/
+frontend/dist/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
