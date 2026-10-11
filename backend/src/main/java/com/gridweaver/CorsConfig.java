@@ -1,3 +1,4 @@
+
 package com.gridweaver;
 
 import org.springframework.context.annotation.Configuration;
@@ -10,7 +11,11 @@ public class CorsConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("http://localhost:5173")
+                .allowedOriginPatterns(
+                        "http://localhost:5173",
+                        "https://grid-weaver-virtual-thread-io-t-microgrid-state-engi-*.vercel.app",
+                        "https://*.vercel.app"
+                )
                 .allowedMethods(
                         "GET",
                         "POST",
