@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:8080';
+const API_BASE = 'https://gridweaver-virtual-thread-iot-microgrid.onrender.com';
 
 export async function apiFetch(path, options = {}) {
   const response = await fetch(`${API_BASE}${path}`, {
